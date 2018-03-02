@@ -1,4 +1,6 @@
 # DNA-squencing
+my.name <- readline(prompt="Enter name: ")    #CACGTAT
+my.name2 <- readline(prompt="Enter name: ")	#CGCA
 sequence1<- c('0', '0', my.name)
 sequence2<-c('0','0', my.name2)
 x<-unlist(strsplit( sequence1,''))
